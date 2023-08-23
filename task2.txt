@@ -1,0 +1,22 @@
+Create Database Market
+
+Use Market
+
+Create Table Products 
+(
+	Id int,
+	Name nvarchar(100),
+	Price int	
+)
+
+Insert Into Products
+(1,N'Un',2),
+(2,'Yag',10),
+(3,N'Qənd',2),
+(4,N'Çörək',0.6),
+(5,'Duz',1),
+(6,N'Şəkər',2),
+(7,N'Balıq',20),
+(8,N'Ət',20),
+(9,N'Düyü',5),
+(10,N'Konfet',10),
