@@ -1,0 +1,27 @@
+Use Company
+
+Create Table Employees
+(
+	Id int,
+	Name nvarchar(100),
+	SurName nvarchar(100),
+	Position nvarchar(100),
+	Salary int,
+	EmployeesId int
+)
+
+Insert Into Employees
+Values
+(1,'Nihad','Suleymanli','Developer',1000,1),
+(2,N'Elmar',N'Sadiqov','Developer',1265,1),
+(1,N'Ağa',N'Mammadov','Developer',935,1),
+(2,N'Kərim',N'Abdullayev','Developer',1675,1),
+(1,N'Orxan',N'Quliyev','Developer',1500,1),
+(2,N'İbrahim',N'Hamzayev','Developer',1400,1)
+
+ 
+ Select Avg(Salary) From Employees
+
+ Select Min(Salary) From Employees
+
+ Select Max(Salary) From Employees
