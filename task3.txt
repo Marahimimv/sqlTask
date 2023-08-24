@@ -1,0 +1,19 @@
+Create Database Employees
+
+Use Employees 
+
+Create Table Employees
+(
+	Id int identity Primary key,
+	FullName nvarchar(100) Not Null Check(Len(FullName) >= 3),
+	Salary int Not Null,
+	DepartmentId int,
+	Email nvarchar(100) Not Null Unique
+)
+
+
+Create Table Departments
+(
+	Id int identity Primary key,
+	Name nvarchar(100) Not Null Check (Len(Name)>=2)
+)
